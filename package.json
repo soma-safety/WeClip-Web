@@ -1,0 +1,38 @@
+{
+    "name": "webclip-web-front",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/js/main.js",
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/soma-safety/WeClip-Web"
+    },
+    "keywords": [
+        "Clipboard",
+        "Copy&Paste"
+    ],
+    "author": "seokju-na",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/soma-safety/WeClip-Web/issues"
+    },
+    "homepage": "https://github.com/soma-safety/WeClip-Web",
+    "dependencies": {
+        "socket.io": "^1.4.5"
+    },
+    "devDependencies": {
+        "browserify": "^13.0.0",
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.0",
+        "gulp-less": "^3.0.5",
+        "gulp-minify-css": "^1.2.4",
+        "gulp-util": "^3.0.7",
+        "less-plugin-autoprefix": "^1.5.1",
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.1.0"
+    }
+}

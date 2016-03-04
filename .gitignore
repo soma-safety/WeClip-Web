@@ -1,0 +1,12 @@
+# Ignore Project Info
+.idea/
+
+# Ignore Libraries
+node_modules/
+
+# Ignore Others
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+npm-debug.log
